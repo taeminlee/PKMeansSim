@@ -33,9 +33,9 @@
             System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -56,9 +56,9 @@
             this.chart1.Location = new System.Drawing.Point(0, 43);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Bubble;
-            series1.MarkerSize = 2;
-            series1.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Cross;
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series1.MarkerSize = 25;
+            series1.MarkerStyle = System.Windows.Forms.DataVisualization.Charting.MarkerStyle.Circle;
             series1.Name = "centroids";
             series1.YValuesPerPoint = 2;
             series2.ChartArea = "ChartArea1";
@@ -89,6 +89,18 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(517, 34);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
+            // button3
+            // 
+            this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button3.Enabled = false;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(347, 3);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(167, 28);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "text3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.GreenYellow;
@@ -113,18 +125,6 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "text2";
             this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button3.Enabled = false;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(347, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(167, 28);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "text3";
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // ClusterPanel
             // 

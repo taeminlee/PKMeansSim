@@ -18,7 +18,7 @@ namespace PKMeansSim
                 case 1 :
                     return Color.FromArgb(255, 51, 102);
                 case 2 :
-                    return Color.FromArgb(51, 255, 102);
+                    return Color.FromArgb(31, 255, 31);
                 case 3:
                     return Color.FromArgb(245, 184, 0);
                 case 4:
@@ -40,23 +40,23 @@ namespace PKMeansSim
             switch (id % 9)
             {
                 case 0:
-                    return Color.FromArgb(91, 142, 245);
+                    return Color.FromArgb(121, 162, 245);
                 case 1:
-                    return Color.FromArgb(255, 121, 142);
+                    return Color.FromArgb(255, 161, 162);
                 case 2:
-                    return Color.FromArgb(91, 255, 142);
+                    return Color.FromArgb(161, 255, 202);
                 case 3:
-                    return Color.FromArgb(255, 224, 40);
+                    return Color.FromArgb(255, 224, 80);
                 case 4:
-                    return Color.FromArgb(91, 244, 255);
+                    return Color.FromArgb(151, 244, 255);
                 case 5:
-                    return Color.FromArgb(244, 91, 255);
+                    return Color.FromArgb(244, 151, 255);
                 case 6:
-                    return Color.FromArgb(214, 255, 91);
+                    return Color.FromArgb(214, 255, 151);
                 case 7:
-                    return Color.FromArgb(204, 178, 30);
+                    return Color.FromArgb(204, 198, 90);
                 case 8:
-                    return Color.FromArgb(40, 86, 204);
+                    return Color.FromArgb(80, 126, 204);
             }
             return Color.Black;
         }
