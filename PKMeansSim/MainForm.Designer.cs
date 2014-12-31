@@ -34,7 +34,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.clusterPanel1 = new PKMeansSim.ClusterPanel();
             this.label2 = new System.Windows.Forms.Label();
             this.pauseBtn = new System.Windows.Forms.Button();
             this.nextBtn = new System.Windows.Forms.Button();
@@ -44,6 +43,7 @@
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.dataGenBtn = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.clusterPanel1 = new PKMeansSim.ClusterPanel();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -115,17 +115,6 @@
             this.splitContainer1.Size = new System.Drawing.Size(1021, 506);
             this.splitContainer1.SplitterDistance = 500;
             this.splitContainer1.TabIndex = 5;
-            // 
-            // clusterPanel1
-            // 
-            this.clusterPanel1.Centroids = null;
-            this.clusterPanel1.DataNode = null;
-            this.clusterPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.clusterPanel1.Location = new System.Drawing.Point(0, 0);
-            this.clusterPanel1.Name = "clusterPanel1";
-            this.clusterPanel1.Points = null;
-            this.clusterPanel1.Size = new System.Drawing.Size(515, 504);
-            this.clusterPanel1.TabIndex = 2;
             // 
             // label2
             // 
@@ -240,6 +229,17 @@
             this.label3.Size = new System.Drawing.Size(92, 12);
             this.label3.TabIndex = 9;
             this.label3.Text = "Refresh Interval";
+            // 
+            // clusterPanel1
+            // 
+            this.clusterPanel1.Centroids = null;
+            this.clusterPanel1.DataNode = null;
+            this.clusterPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.clusterPanel1.Location = new System.Drawing.Point(0, 0);
+            this.clusterPanel1.Name = "clusterPanel1";
+            this.clusterPanel1.Points = null;
+            this.clusterPanel1.Size = new System.Drawing.Size(515, 504);
+            this.clusterPanel1.TabIndex = 2;
             // 
             // MainForm
             // 

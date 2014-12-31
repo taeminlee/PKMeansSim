@@ -63,7 +63,6 @@ namespace PKMeansSim
             masterTimer.Start();
             dataNodeTimer.Start();
             loopCounter = 0;
-            //dataSet.DataSplit(Config.b);
             richTextBox1.AppendText(String.Format("MasterNode Init", Config.b) + Environment.NewLine);
             master = new MasterNode(dataSet);
             master.StateChanged += master_StateChanged;
@@ -75,6 +74,11 @@ namespace PKMeansSim
                 dataNode.CentroidChanged += dataNode_CentroidChanged;
                 dataNode.StateChanged += dataNode_StateChanged;
             }
+            foreach (Point point in dataSet.Points)
+            {
+                point.AssignCentroid = null;
+            }
+            this.clusterPanel1.Points = dataSet.Points;
             this.clusterPanel1.Centroids = master.Centroids;
             SetDataNodeGrid();
             Task.Factory.StartNew(master.KMeans);
