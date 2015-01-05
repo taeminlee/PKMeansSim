@@ -4,16 +4,19 @@ PKMeansSim : Parallel K-Means Simulator
 Parallel K-Means Simulator is the program to learn K-means algorithm and Map-Reduce paradigm efficiently.
 
 Download
+--------
 
 - [version 1.0 : Windows](https://github.com/taeminlee/PKMeansSim/releases/download/v1.0/PKMeansSim.1.0.msi)
 
 Features
+--------
 
 - Visualize each of Parallel K-means algorithm.
 - Customize parameters (K, B, N)
 - Experiments with 2 data distribution (uniform, KBlock)
 
 Screenshot
+----------
 
 ![screenshot](http://wiki.dataknow.net/img/PKMeansSim%20fig3-2.PNG)
 
