@@ -11,8 +11,8 @@ Download
 Features
 --------
 
-- Visualize each of Parallel K-means algorithm.
-- Customize parameters (K, B, N)
+- Visualize each step of Parallel K-means algorithm.
+- Customizable parameters (K, B, N)
 - Experiments with 2 data distribution (uniform, KBlock)
 
 Screenshot
