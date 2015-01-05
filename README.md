@@ -23,4 +23,4 @@ Screenshot
 1. Master Node : Shows every points in the algorithm. Runs Reduce phase.
 2. Data Node : Shows arallized processing on data nodes. Runs Map & Combine phase.
 3. Log : Records event logs.
-4. Functional buttons : Set of buttons to control PKMeansSim. From left, 'Configuration', 'Algorithm describe figure', 'Data generation', 'Interval of visualize each step', 'Pause', 'Shows next step'.
+4. Functional buttons : Set of buttons to control PKMeansSim. From left, 'Configuration', 'Algorithm describe figure', 'Data generation', 'Interval of visualize each step', 'Start PKMeansSim', 'Pause', 'Shows next step'.
